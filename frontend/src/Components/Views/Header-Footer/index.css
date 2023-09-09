@@ -1,0 +1,28 @@
+.HeaderPage {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Ajuste o valor conforme necessário */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
