@@ -9,9 +9,9 @@ function Rotas() {
             <BrowserRouter>
                 <HeaderPage/>
                 <Routes>
-                <Route path="*"  />
-                    <Route path='/SignIn' element={ < Login /> }/>
-                    <Route path='/Home' element={ < Home /> }/>
+                <Route path="*"  element={ < Home /> } />
+                    <Route path='/SignIn' element={ < Login /> } />
+                    <Route path='/Home' element={ < Home /> } />
                     <Route path='/NewEvent' element={ < NewEvent /> } />
                 </Routes>
             </BrowserRouter>

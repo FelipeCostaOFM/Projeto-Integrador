@@ -7,7 +7,11 @@ function NewEvent() {
                     <input type="text" placeholder="Nome do Evento" id="eventName" />
                     <input type="text" placeholder="Data" id="eventDate" />
                     <input type="text" placeholder="Hora" id="eventTime" />
-                    <input type="text" placeholder="Local" id="eventLocation" />
+                    <input type="text" placeholder="Estado" id="eventState" />
+                    <input type="text" placeholder="Cidade" id="eventCity" />
+                    <input type="text" placeholder="Bairro" id="eventNeighborhood" />
+                    <input type="text" placeholder="Rua" id="eventRoad" />
+                    <input type="text" placeholder="Numero" id="eventNumber" />
                     <select id="eventCategory">
                     <option value="" disabled selected>Escolha o gênero musical</option>
                     <option value="Rock">Rock</option>
