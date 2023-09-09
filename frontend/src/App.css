@@ -83,43 +83,4 @@ button[type="submit"]:hover,
 h1 {
   color: #888;
 }
-
-.star-fall {
-    position: fixed;
-    left: 50px;
-    top: 0;
-    height: 20px;  
-    width: 20px; 
-    border-radius: 50%;
-    background-color: white;
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff;  
-    filter: blur(1px); 
-    animation: fall-animation 12s linear infinite, side-to-side 6s ease-in-out infinite; 
-  }
-  
-  @keyframes fall-animation {
-    0% {
-      top: -20px; 
-    }
-    100% {
-      top: calc(100vh + 20px);  
-    }
-  }
-  
-  @keyframes side-to-side {
-    0%, 100% {
-      left: 50px;
-    }
-    50% {
-      left: 80px;  
-    }
-  }
-  
-  #audioVisualizer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: -1; 
-  }
-  
  
