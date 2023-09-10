@@ -5,9 +5,9 @@ function Home() {
     return(
         <>
             <div class="container">
-                <h1 class="circlinho">Próximos Eventos</h1>
+                <h1>Próximos Eventos</h1>
                 <Link to={'/NewEvent'}>
-                    <button type="submit">Crie Seu Evento</button>
+                    <button type="crie-evento">Crie Seu Evento</button>
                 </Link>
                 <div class="event-grid">
                     <div class="event-box">
