@@ -1,24 +1,19 @@
 import './index.css';
 
 function HeaderPage() {
-    return(
+    return (
         <>
-            <header className='HeaderPage'>
-                <div className='header-content'>
-                    <h1>
-                        ADS <br/>
-                        Events
-                    </h1>
-
-                    <nav className='navbar'>
-                        <ul>
-                            <li>Home</li>
-                            <li>Contato</li>
-                            <li>Sobre</li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>    
+            <header class="cabecalho">
+                <a class="titulo" href="/">ADS EVENTOS</a>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/contato">Eventos</a></li>
+                        <li><a href="/contato">Crie seu Evento</a></li>
+                        <li><a href="/sobre">Sobre nós</a></li>
+                    </ul>
+                </nav>
+            </header>
         </>
     )
 };
