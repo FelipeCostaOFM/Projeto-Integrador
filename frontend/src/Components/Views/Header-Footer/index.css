@@ -28,7 +28,7 @@ hr {
   transition: color 0.5s, font-size 0.5s;
 }
 .titulo:hover {
-  color: #28a745; 
+  color: #00e7f9; 
   font-size: 28px;
 }
 
@@ -37,7 +37,7 @@ hr {
 }
 
 .menu li a:hover {
-  color: #28a745; 
+  color: #00e7f9; 
 }
 
 .cabecalho {
