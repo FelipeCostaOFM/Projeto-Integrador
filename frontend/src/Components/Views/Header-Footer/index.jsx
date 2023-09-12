@@ -10,7 +10,6 @@ function HeaderPage() {
                         <li><a href="/">Home</a></li>
                         <li><a href="/contato">Eventos</a></li>
                         <li><a href="/contato">Crie seu Evento</a></li>
-                        <li><a href="/SignIn">Login</a></li>
                         <li><a href="/sobre">Sobre nós</a></li>
                     </ul>
                 </nav>
